@@ -24,6 +24,11 @@ Thanks to [@raghavpillai](https://github.com/raghavpillai) we also have [Warp](h
 
 - `fw`: open current **Finder** directory in **Warp**
 
+We also have [Zed](https://zed.dev) support and a clipboard action:
+
+- `fz`: open current **Finder** directory in **Zed**
+- `fc`: copy current **Finder** directory path to **clipboard**
+
 In addition the search result in Alfred will show you what the action will do in its subtitle, i.e. `ft`:
 
 ![Finder → Terminal](https://raw.github.com/LeEnno/alfred-terminalfinder/master/screenshot_ft.png)
