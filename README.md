@@ -29,6 +29,12 @@ We also have [Zed](https://zed.dev) support and a clipboard action:
 - `fz`: open current **Finder** directory in **Zed**
 - `fc`: copy current **Finder** directory path to **clipboard**
 
+We also have [Ghostty](https://ghostty.org) support:
+
+- `fg`: open current **Finder** directory in **Ghostty**
+- `gf`: open current **Ghostty** directory in **Finder**
+- `gc`: copy current **Ghostty** working directory to **clipboard**
+
 In addition the search result in Alfred will show you what the action will do in its subtitle, i.e. `ft`:
 
 ![Finder → Terminal](https://raw.github.com/LeEnno/alfred-terminalfinder/master/screenshot_ft.png)

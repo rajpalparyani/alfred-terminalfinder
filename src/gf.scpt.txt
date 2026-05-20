@@ -1,0 +1,7 @@
+on alfred_script(q)
+  tell application "Ghostty"
+    set t to focused terminal of selected tab of front window
+    input text "open -a Finder ./" to t
+    send key "return" to t
+  end tell
+end alfred_script

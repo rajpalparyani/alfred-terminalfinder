@@ -1,0 +1,17 @@
+on alfred_script(q)
+  tell application "Finder"
+    set pathList to (quoted form of POSIX path of (folder of the front window as alias))
+  end tell
+
+  tell application "Ghostty"
+    activate
+    if (count of windows) is 0 then
+      new window
+    else
+      new tab in front window
+    end if
+    set t to focused terminal of selected tab of front window
+    input text ("cd " & pathList) to t
+    send key "return" to t
+  end tell
+end alfred_script
